@@ -1,0 +1,370 @@
+/* * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+} */
+
+h1, h2, h3, h4, h5, figure, p, ol, ul {
+    margin: 0;
+}
+
+ol[role="list"], ul[role="list"] {
+    list-style: none;
+    padding-inline: 0;
+}
+  
+h1, h2, h3, h4, h5 {
+    font-size: inherit;
+    font-weight: inherit;
+}
+  
+img {
+    display: block;
+    max-inline-size: 100%;
+}
+
+html {
+    font-family: "Roboto", sans-serif;
+}
+
+.promo {
+    background: url('../img/main_bg.jpg') center center / cover no-repeat;
+    min-height: 800px;
+    padding: 22px;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.logo__img {
+    display: block;
+    margin: 0 auto;
+}
+
+.logo__text {
+    margin-top: 13px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+}
+
+.title {
+    font-weight: 900;
+    font-size: 41px;
+    line-height: 100%;
+    text-transform: uppercase;
+    text-align: center;
+    color: #f9bf3b;
+}
+
+.title_big {
+    font-size: 80px;
+    color: #fff;
+    margin-top: 12px;
+}
+
+h1 {
+    margin-top: 52px;
+}
+
+.title_promo_much_harder {
+    margin-top: 12px;
+}
+
+.promo__text {
+    max-width: 1140px;
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 133%;
+    text-align: center;
+    color: #fff;
+}
+
+.promo__text span {
+    color: #f9bf3b;
+    text-transform: uppercase;
+}
+
+.btn {
+    min-width: 315px;
+    min-height: 72px;
+    border-radius: 4px;
+    background: linear-gradient(0deg, #ff4d00 0%, #feb05d 100%);
+    font-weight: 500;
+    font-size: 21px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    text-shadow: -1px -1px 0 0 rgba(0, 0, 0, 0.22);
+    display: block;
+    margin: 75px auto 0 auto;
+    border: none;
+}
+
+.promo__more_text {
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    margin: 75px auto 0 auto;
+}
+
+.promo__more_icon {
+    display: block;
+    margin: 8px auto 0 auto;
+}
+
+.awaits {
+    padding-top: 80px;
+    min-height: 592px;
+    max-width: 1920px;
+}
+
+.awaits h2 {
+    font-weight: 500;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #252525;
+    padding-top: 0;
+}
+
+.awaits .yellow {
+    background-color: #f9bf3b;
+    height: 7px;
+    width: 220px;
+    border: none;
+    margin: 14px auto 0 auto;
+}
+
+.awaits h3 {
+    margin-top: 15px;
+    font-weight: 500;
+    font-size: 23px;
+    text-align: center;
+    color: #4a4a4a;
+}
+
+.awaits .wrapper {
+    margin-top: 42px;
+    vertical-align: top;
+    display: flex;
+    justify-content: space-between;
+    gap: 0px;
+}
+
+.promise {
+    width: 360px;
+    vertical-align: top;
+}
+
+.promise_img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.promise_text {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.about {
+    background: #0f0b0b;;
+    padding: 100px 0 140px 0;
+    min-height: 570px;
+}
+
+.about .container {
+    padding-left: 390px;
+    
+    position: relative;
+}
+
+.about h3 {
+    font-weight: 900;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #f9bf3b;
+    text-align: right;
+}
+
+.about p {
+    margin-top: 18px;
+    font-weight: 300;
+    font-size: 16px;
+    text-align: right;
+    color: #fff;
+    z-index: 2;
+    position: relative;
+}
+
+.about img {
+    position: absolute;
+    top: 86px;
+    left: 83px;
+    z-index: 1;
+}
+
+.skills {
+    background: url('../img/after_bg.jpg') center center / cover no-repeat;
+    padding: 78px 0 102px 0;
+    min-height: 450px;
+    
+}
+
+.skills h3 {
+    font-weight: 400;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #efefef;
+}
+
+.divider {
+    margin: 12px auto 0 auto;
+    background-color: #f9bf3b;
+    width: 220px;
+    height: 7px;
+}
+
+.skills .wrapper {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills__item {
+    width: 224px;
+}
+
+.circle {
+    margin: 0 auto;
+    width: 115px;
+    height: 115px;
+    background-color: #f9bf3b;
+    border-radius: 100%;
+    position: relative;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+.skills_img {
+    max-width: 100%;
+    object-fit: contain;
+   
+}
+
+.skills_descr {
+    margin-top: 20px;
+    font-weight: 300;
+    font-size: 16px;
+    text-align: center;
+    color: #efefef;
+}
+
+.bonus {
+    min-height: 613px;
+    background-color:  #efefef;
+    padding: 80px 0;
+}
+
+.bonus_img {
+    display: block;
+    margin: 0 auto;
+}
+
+.bonus h4 {
+    margin-top: 80px;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 150%;
+    text-align: center;
+    color: #252525;
+}
+
+.bonus .container{
+    padding: 0 12px;
+}
+
+.webinar {
+    background: #0f0b0b;
+    min-height: 693px;
+    padding: 50px 0 215px 0;
+}
+
+.webinar_img {
+    display: block;
+    margin: 0 auto;
+}
+
+.webinar h2 {
+    margin-top: 40px;
+    font-weight: 500;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+}
+
+.webinar h3 {
+    margin-top: 20px;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 100%;
+    text-transform: uppercase;
+    text-align: center;
+    color: #f9bf3b;
+}
+
+.webinar h4 {
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 23px;
+    text-align: center;
+    color: #efefef;
+}
+
+footer {
+    padding: 58px 0;
+    background-color: #1a1a1a;
+}
+
+.contacts {
+    margin: 0 auto;
+    width: 180px;
+    height: 50px;
+}
+
+.contacts .first_row, .contacts .second_row {
+    margin: 0 auto;
+}
+
+.contacts a  {
+    font-weight: 300;
+    font-size: 16px;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    text-align: center;
+    color: #888;
+}
+
+.contacts p, .contacts span {
+    text-align: center;
+    color: #888;
+    font-weight: 300;
+    font-size: 16px;
+    text-align: center;
+}
+
+.contacts  .second_row_a {
+    text-decoration: none;
+}
